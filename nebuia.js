@@ -30,7 +30,7 @@ class NebuIA {
     }
 
     init() {
-        let url = `https://widget.nebuia.com/#/widget/${this.code['payload']}`;
+        let url = `https://widget.nebuia.com/#/widget/${this.code}`;
         url = this._updateQuery(url, 'api_key', this.keys.public_key);
         url = this._updateQuery(url, 'api_secret', this.keys.private_key);
         let iframe = this._buildIframe();
