@@ -2,15 +2,14 @@ class NebuIA {
 
     constructor(keys, code, callback) {
         this.width = '465px';
-        this.height = '690px';
+        this.height = '710px';
         this.parent = 'nebuia';
         this.keys = keys
         this.code = code;
         this.callback = callback;
 
         window.addEventListener('message', event => {
-            if (event.origin === document.domain)
-                this.callback();
+                this.callback(event.data);
         });
     }
 
