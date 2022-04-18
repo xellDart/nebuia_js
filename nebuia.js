@@ -18,6 +18,7 @@ class NebuIA {
         iframe.frameBorder = 0;
         iframe.width = this.width;
         iframe.height = this.height;
+        iframe.style["height"] = "100vh";
         return iframe;
     }
 
