@@ -2,7 +2,7 @@ class NebuIA {
 
     constructor(keys, code, callback) {
         this.width = '100%';
-        this.height = '800px';
+        this.height = '850px';
         this.parent = 'nebuia';
         this.keys = keys
         this.code = code;
@@ -18,7 +18,7 @@ class NebuIA {
         iframe.frameBorder = 0;
         iframe.width = this.width;
         iframe.height = this.height;
-        iframe.style["height"] = "800px";
+        iframe.style["height"] = "850px";
         iframe.style["width"] = "100%";
         return iframe;
     }
