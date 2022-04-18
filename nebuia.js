@@ -2,7 +2,7 @@ class NebuIA {
 
     constructor(keys, code, callback) {
         this.width = '100%';
-        this.height = '100%';
+        this.height = '100vh';
         this.parent = 'nebuia';
         this.keys = keys
         this.code = code;
